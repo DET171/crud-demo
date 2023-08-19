@@ -1,0 +1,13 @@
+{
+  "name": "crud-demo",
+  "type": "module",
+  "dependencies": {
+    "fastify": "^4.21.0",
+    "prisma": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.15.8",
+    "eslint": ">= 3",
+    "eslint-config-berry": "latest"
+  }
+}
