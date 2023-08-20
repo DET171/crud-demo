@@ -10,14 +10,10 @@ generator client {
 model Movie {
   id         Int      @id @default(autoincrement())
   title      String
-  year       Int
-  directorId Int
-  director   Director @relation(fields: [directorId], references: [id])
-}
-
-model Director {
-  id     Int     @id @default(autoincrement())
-  name   String
-	dob		 DateTime
-  movies Movie[]
+  release		 DateTime       
+  director   String
+	runtime		 Int
+	genre			 String
+	plot			 String
+	rating		 String
 }

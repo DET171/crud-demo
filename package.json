@@ -1,7 +1,7 @@
 {
   "name": "crud-demo",
   "type": "module",
-	"main": "src/index.js",
+  "main": "src/index.js",
   "dependencies": {
     "@prisma/client": "5.1.1",
     "fastify": "^4.21.0",
@@ -11,9 +11,11 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.15.8",
     "eslint": ">= 3",
-    "eslint-config-berry": "latest"
+    "eslint-config-berry": "latest",
+    "nodemon": "^3.0.1"
   },
-	"scripts": {
-		"start": "node ."
-	}
+  "scripts": {
+    "start": "node .",
+		"dev": "nodemon ."
+  }
 }
